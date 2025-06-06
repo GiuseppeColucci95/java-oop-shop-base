@@ -24,8 +24,7 @@ public class Main {
     System.out.println(pc.iva);
 
     System.out.println(pc.getPrezzo());
-    System.out.printf("%.2f", pc.getPrezzoWithIva());
-    System.out.println("");
+    System.out.printf("%.2f\n", pc.getPrezzoWithIva());
     System.out.println(pc.getNomeEsteso());
   }
 }
